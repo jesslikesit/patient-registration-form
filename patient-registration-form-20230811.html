@@ -50,7 +50,7 @@
 
         <br><br>
         <label for="bday">Date of birth:</label>
-        <input type="date" id="bday" name:"bday" required>
+        <input type="date" id="bday" name="bday" required>
         &emsp;
         <label for="age">Age:</label>
         <input type="number" id="age" name="age" minlength="1" maxlength="2" style="width: 50px;" required>
@@ -135,6 +135,52 @@
         &emsp;
         <label for="mname-guarantor">Middle initial:</label>
         <input type="text" id="mname-guarantor" name="mname-guarantor" minlength="1" maxlength="1" style="width: 30px;">
+
+        <br><br>
+        <label for="address-guarantor">Address:</label>
+        <input type="text" id="address-guarantor" name="address-guarantor" placeholder="required" style="width: 600px;">
+
+        <br><br>
+        <label for="city-guarantor">City:</label>
+        <input type="text" id="city" name="city-guarantor">
+        &emsp;
+        <label for="state-guarantor">State:</label>
+        <input type="text" id="state-guarantor" name="state-guarantor" minlength="2" maxlength="2" style="width: 50px;"> 
+        &emsp;
+        <label for="zip-guarantor">Zip:</label>
+        <input type="text" id="zip-guarantor" name="zip-guarantor" style="width: 75px;">
+
+        <br><br>
+        <label for="home-phone-guarantor">Home phone #:</label>
+        <input type="tel" id="home-phone-guarantor" name="home-phone-guarantor" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" style="width: 100px;">
+        &emsp;
+        <label for="ss-guarantor">Social security #:</label>
+        <input type="text" id="ss-guarantor" name="ss-guarantor" pattern="[0-9]{3}-[0-9]{2}-[0-9]{4}" placeholder="xxx-xx-xxxx" style="width: 75px;" required>
+
+        <br><br>
+        <label for="bday-guarantor">Date of birth:</label>
+        <input type="date" id="bday-guarantor" name="bday-guarantor" required>
+        &emsp;
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" minlength="1" maxlength="2" style="width: 50px;" required>
+        &emsp;
+        <label for="sex-guarantor">Sex:</label>
+        <select id="sex-guarantor" name="sex-guarantor">
+            <option value="select-one">Select one</option>
+            <option value="female">Female</option>
+            <option value="male">Male</option>
+            <option value="non-binary">Non-binary</option>
+            <option value="pnts">Prefer not to say</option>
+        </select>
+
+            <br><br>
+            <label for="employer-guarantor">Employer name and address:</label>
+            <input type="text" id="employer-guarantor" name="employer-guarantor" style="width: 400px;">
+
+            <br><br>
+            <label for="home-phone-guarantor">Home phone #:</label>
+            <input type="tel" id="home-phone-guarantor" name="home-phone-guarantor" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" style="width: 100px;">
+
         <p>
                     <button>Submit</button>
                 </p>
