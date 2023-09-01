@@ -1,0 +1,78 @@
+/* atomic tangerine: #EF946C; 
+ecru: #C4A77D; 
+hooker's green: #70877F; 
+delft blue: #454372; 
+space cadet: #2F2963*/
+
+.heading {
+    border-width: 2px;
+    border-color: #454372;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+div {
+    margin: 2em;
+    margin-left: 10em;
+    margin-right: 10em;
+    padding: 1em;
+}
+
+input, option, label, select, button {
+    font-family: monospace;
+    color: #454372;
+}
+
+body {
+    background-color:#C4A77D;
+    color: #70877F;
+    font-family: monospace;
+    text-align: justify;
+}
+
+h1 {
+    text-align: center;
+    color: #2F2963;
+}
+
+h2 {
+    color: #70877F;
+    text-align: center;
+}
+
+button {
+    background-color: #2F2963;
+    color: #70877F;
+}
+
+span {
+    font-size: 0.75em;
+} 
+
+#mname, #mname-guarantor {
+    width: 2em;
+}
+
+#state, #state-guarantor {
+    width: 3em;
+}
+
+#zip, #zip-guarantor {
+    width: 5em;
+}
+
+#address, #address-guarantor {
+    width: 30em;
+}
+
+#age, #age-guarantor {
+    width: 2em;
+}
+
+#drivers-license {
+    width: 5em;
+}
+
+#employer, #employer-guarantor {
+    width: 30em;;
+}
